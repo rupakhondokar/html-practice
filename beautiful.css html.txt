@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ 
+      <title>CSS - Cascading Style Sheet</title>
+      <link rel="stylesheet" href="css/myCSS.css"> 
+      <style> 
+         h1{
+              color:rgba(110,216.100,0.747); 
+              background-color:sandybrown;
+              height:90px;
+              width:75%;
+           } 
+         p{ 
+             color:salmon;
+             font-size: 20px;
+             font-weight:700;
+             font-family:Verdana,Geneva,Tahoma,sans-serif; 
+             
+          }
+          #birthday{
+                font-size:40px;
+                color:slateblue;
+         }
+         .friend{
+              background-color:greenyellow;
+         } 
+         .neighbor{
+            width: 200px;
+         }
+         h1.friend{
+             font-size:60px;
+         }  
+         #muegi{
+             color:tomato;
+         }      
+          img{
+                width: 50%;
+                
+         }
+        .romantic{
+            color:red;
+        } 
+        
+       
+      </style>
+<head>
+     <div class="blog">
+         <h3>Sajek</h3>
+       <p>Shunor gas pala deklam.pahar porbot paila. <b>sangu goorla</b>.shundor<a href="www.bandorban.com">animals</a> deklam</p> 
+       <p>Amer piryo jaiga<p/>
+    </div>
+   
+    <div class="blog" >     
+         <h3>Saint martin</h3>
+       <p>Khali pani ar pani.pahar porbot paila. sangu goorla.shundor animals deklam</p>
+    </div>
+
+   <div class="blog">
+        <h3>Soundorban</h3>
+        <p>Bag mama halum</p>     
+ 
+       <h1>Adding Makeup. YAY!</H1>
+       <h1 class="friend">this is a pan</h1> 
+       <h2>hello dear friend</h2>
+       <h3>another header</h3>
+       <h4>wow looking just</h4>
+       <p id="murgi">there is a airport <span class="romantic> i am entry</span> ok</p>
+       <p>i love sleeping</p>
+       <p class="neighbor>this is your car</p>
+       <p class="friend">where is the airport</p>
+       <p class="friend neighbor">this is my dog</p>
+       <p class="friend">i love football</p>
+       <p id="birthdy" class="friend">Feeling Excited toexplore css</p>
+       <img src="C:\Users\WALTON\OneDrive\Pictures\Camera Roll\Jhorna\94b9134d-9027-4f6d-9d81-b73ab462777f.png"alt="">
+         
+
+
+
+
+
+</body>
+</html>

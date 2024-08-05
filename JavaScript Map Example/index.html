@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Map Example</title>
+</head>
+<body>
+<h1>JavaScript Map Example</h1>
+<div id="map-content"
+style="font-size: 18px; color: blue; text-align: center"></div>
+<br>
+<div id="signature" style="text-align: center;color: #01437C; font-family:'Dancing Script',cursive; ">WEB_Developers</div>
+<script>
+const myMap = new Map();
+myMap.set('Name','WEB_Developers');
+
+myMap.set('Age', 22); myMap.set('Email','rupakhandokar0@gmail.com');
+let content = '';
+myMap.forEach((value, key)
+content = '${key}: $ {value}<br>');
+document.getElementById('map-content').innerHTML = conten;
+  </script>
+</body>
+</html>
